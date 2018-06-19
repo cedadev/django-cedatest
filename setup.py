@@ -8,9 +8,9 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='cedatest',
+    name='cedatest_control',
     version='0.1',
-    packages=['cedatest'],
+    packages=['cedatest_control'],
     install_requires=[
         'django',
         'django-sizefield',
